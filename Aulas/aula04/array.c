@@ -1,4 +1,4 @@
-// A array armazena uma coleção de elementos do mesmo tipo,  acessados pelo indice
+lea// A array armazena uma coleção de elementos do mesmo tipo,  acessados pelo indice
 // A declaração de um array em C é feita da seguinte forma: tipo nomeVar[tamanho];
 
 // exemplo de declaração de array e acesso a um elemento:
