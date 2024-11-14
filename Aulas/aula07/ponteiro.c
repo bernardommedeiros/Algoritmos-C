@@ -6,14 +6,10 @@
 #include <stdio.h>
 
 int main() {
-    int numeros[5] = {10, 20, 30, 40, 50};
-    int *ponteiro = &numeros[0];
-
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", *(ponteiro + i));
-    }
-
-    return 0;
+    int var = 10;
+    int *pont = &var;
+    *pont = *pont * 2;
+    printf ("%d", *pont);
 }
 
 
