@@ -1,0 +1,15 @@
+1 - Azul O(1): Constante
+Tempo de execução do algoritmo é constante e não depende da entrada, assim, sendo a complexidade mais eficiente, porque executa apenas a quantidade pré definida de operações.
+
+2 - Laranja O(n log n): Linearítmica 
+Tempo de execução aumenta gradativamente enquanto a entrada cresce mais rápido, porém, enquanto há aumento da entrada o tempo da execução tambem aumenta, tornando menos eficiente que a constante.
+
+3 - Amarelo O(n3): Cúbica
+Tempo de execução proporcional ao cubo do tamanho da entrada
+
+4 - Lilas O(n20): ?
+Por ser elevado a 20, logicamente será menos eficiente que a complexidade cúbica e mais eficiente que a exponencial, que sempre será o pior caso.
+
+5 - Bege O(2n): Exponencial
+Tempo de execução cresce exponencialmente comparado ao tamanho da entrada, tornando essa a complexidade menos eficiente.
+
