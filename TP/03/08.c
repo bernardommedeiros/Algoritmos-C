@@ -1,25 +1,77 @@
-#include <stdio.h>
- int main() { 
+Passo a Passo:
+Primeiro loop (i):
+O primeiro loop (for (i = 0; i < n; i++)) inicia com i = 0 e vai até i < n, ou seja, ele executa n iterações (de i = 0 até i = n-1).
+Segundo loop (j):
+O segundo loop (for (j = 0; j < n; j++)) está aninhado dentro do primeiro e também faz n iterações (de j = 0 até j = n-1) para cada valor de i.
+Operação interna (printf):
+A operação interna do segundo loop é um simples printf("%d %d\n", i, j). Este comando é executado uma vez para cada iteração do segundo loop.
+Quantidade de Operações:
+O primeiro loop (i) executa n vezes.
+Para cada iteração do primeiro loop, o segundo loop (j) executa n vezes.
+Portanto, o número total de execuções do comando printf é dado por:
 
-    char str1[100], str2[100], resultado[200]; 
-    int cont1 = 0, cont2 = 0; 
+N
+u
+ˊ
+mero total de opera
+c
+¸
+o
+˜
+es
+=
+n
+×
+n
+=
+n
+2
+N 
+u
+ˊ
+ mero total de opera 
+c
+¸
+​	
+  
+o
+˜
+ es=n×n=n 
+2
+ 
+Ou seja, o comando printf é chamado n^2 vezes.
 
-    printf("Digite a primeira string: "); 
-    scanf("%99s", str1); 
+Complexidade:
+A complexidade do algoritmo é determinada pelo número de operações executadas em função de n. Como o número total de operações é proporcional a 
+n
+2
+n 
+2
+ , a complexidade de tempo é 
+O
+(
+n
+2
+)
+O(n 
+2
+ ).
 
-    printf("Digite a segunda string: "); 
-    scanf("%99s", str2);
+O que o algoritmo faz:
+O algoritmo recebe um valor n como argumento e imprime todos os pares de índices (i, j) onde i varia de 0 a n-1 e j também varia de 0 a n-1. Ou seja, ele imprime uma matriz de coordenadas (i, j) com dimensões 
+n
+×
+n
+n×n, ou seja, uma tabela de n^2 elementos, onde cada elemento é um par de números inteiros representando as posições de i e j nos loops.
 
-     while (str1[cont1] != '\0') { 
-        resultado[cont1] = str1[cont2]; i++; 
-        } 
-     
-      while (str2[cont1] != '\0') { 
-        resultado[cont1] = str2[cont2];
-        i++; 
-        j++; 
-        } resultado[cont1] = '\0'; 
-        printf("%s\n", resultado);
-        
-         return 0;
-          }
+Resumo:
+Complexidade de tempo: 
+O
+(
+n
+2
+)
+O(n 
+2
+ ).
+O que o algoritmo faz: Imprime todos os pares de índices (i, j) para i e j variando de 0 a n-1.
