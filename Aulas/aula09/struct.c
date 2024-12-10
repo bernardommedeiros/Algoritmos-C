@@ -1,6 +1,7 @@
-//struct - semelhante as class
-// & acesso a endereço de memória
-struct Pessoa{
+#include <stdio.h>
+// struct semelhante a class
+// & acessa endereço de memória
+struct Pessoa {
     char nome[50];
     int idade;
     float altura;
@@ -9,17 +10,18 @@ struct Pessoa{
 int main() {
     struct Pessoa pessoa1;
 
-    printf("Nome:");
+    printf("Digite o nome da pessoa: ");
     scanf("%s", pessoa1.nome);
 
-    printf("Nome:");
-    scanf("%s", pessoa1.idade);
+    printf("Digite a idade da pessoa: ");
+    scanf("%d", &pessoa1.idade);
 
-    printf("Altura:");
-    scanf("%f", pessoa1.altura);
-    
-    printf("Nome: %s", pessoa1.nome)    
-    printf("Nome: %d", pessoa1.idade)    
-    printf("Nome: %f", pessoa1.altura)    
+    printf("Digite a altura da pessoa: ");
+    scanf("%f", &pessoa1.altura);
+
+    printf("Nome: %s\n", pessoa1.nome);
+    printf("Idade: %d\n", pessoa1.idade);
+    printf("Altura: %.2f\n", pessoa1.altura);
+
+    return 0;
 }
-
