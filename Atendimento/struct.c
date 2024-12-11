@@ -1,26 +1,57 @@
 #include <stdio.h>
-
-struct Atendimento{
+#include <string.h>
+struct Cliente{
     char nome[50];
     int idade;
     char tipoAtend[50];
     int preferencia;
-// 1 se sim 2 se não, caso sim, 1, 2, 3 para idoso gestante ou deficiente
 }
 
-void inserirPreferencia(struct Atendimento){
-    struct Atendimento filaPref[100];
-         for (int i = 0; i < numContatos; i++) {
-        printf("Digite o nome %d: ", i + 1);
-        scanf("%s", filaPref[i].nome);
+struct Fila{
+    struct Cliente* clientes[10];
+}
 
-        printf("Digite a idade %d: ", i + 1);
-        scanf("%s", filaPref[i].telefone);
+void inserirCliente(){
+    struct Cliente obj;
+    
+    printf("Digite o nome %d: ", i + 1);
+    scanf("%s", obj.nome);
 
-        printf("Digite o tipo de atendimento %d: ", i + 1);
-        scanf("%s", filaPref[i].nome);
+    printf("Digite a idade %d: ", i + 1);
+    scanf("%s", obj.idade);
 
-        printf("Informe o seu tipo de preferencia %s: ", i + 1);
-        scanf("%s", filaPref[i].telefone);
+    printf("Digite o tipo de atendimento %d: ", i + 1);
+    scanf("%s", obj.tipoAtend);
+
+    printf("O cliente é preferencial? Digite: 0 caso não, 1 para idoso, 2 para gestante e 3 para lactante%d: ", i + 1);
+    scanf("%s", obj.preferencia);
+    if (0){
+        printf("Ola")
     }
-} 
+    
+}
+
+
+void organizarFila
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main(){
+    struct Cliente cliente[10];
+}

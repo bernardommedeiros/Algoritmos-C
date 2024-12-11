@@ -1,0 +1,8 @@
+Constante O(1): Tempo de execução do algoritmo é constante e não depende da entrada, assim, sendo a complexidade mais eficiente, porque executa apenas a quantidade pré definida de operações.
+
+Linearítmica O(n log n): Tempo de execução aumenta gradativamente enquanto a entrada cresce mais rápido, porém, enquanto há aumento da entrada o tempo da execução tambem aumenta, tornando menos eficiente que a constante.
+
+Quadradica O(n²): Tempo de execução proporcional ao quadrado do tamanho da entrada
+Cúbica O(N³): Tempo de execução proporcional ao cubo do tamanho da entrada
+
+Exponencial: Tempo de execução cresce exponencialmente comparado ao tamanho da entrada, tornando essa a complexidade menos eficiente.
