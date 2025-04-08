@@ -1,1 +1,0 @@
-# Notação Big O
