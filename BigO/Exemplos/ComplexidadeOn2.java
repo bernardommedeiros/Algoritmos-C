@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class ComplexidadeOn2 {
-    public static boolean exemploOn(ArrayList<Integer> vector){
+    public static boolean exemploOn2(ArrayList<Integer> vector){
         int tamanho = vector.size(); // O(1)
 
         for (int i = 0; i < tamanho; i++){ // O(n)
